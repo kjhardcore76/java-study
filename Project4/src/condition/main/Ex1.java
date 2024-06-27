@@ -1,4 +1,4 @@
-package condition;
+package condition.main;
 
 public class Ex1 {
 
@@ -13,7 +13,7 @@ public class Ex1 {
 			int temp = 0;
 			System.out.println(temp);
 		}
-		//System.out.println(temp);
+		
 	} 
 
 }
