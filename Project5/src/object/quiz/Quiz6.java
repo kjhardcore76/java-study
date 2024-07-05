@@ -1,4 +1,4 @@
-package quiz;
+package object.quiz;
 
 public class Quiz6 {
 	int a = 10;
