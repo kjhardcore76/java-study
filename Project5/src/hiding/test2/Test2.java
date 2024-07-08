@@ -18,7 +18,8 @@ class Person{
 	int height;
 	private double weight;
 	
-	public void main() {
+	public 
+	void main() {
 		System.out.println(name + " " + height + " " + weight);
 
 	}
