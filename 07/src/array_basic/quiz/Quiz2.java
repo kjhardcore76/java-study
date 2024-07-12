@@ -9,16 +9,19 @@ public class Quiz2 {
 		Student student1 = new Student("학생1", 10);
 		Student student2 = new Student("학생2", 10);
 		Student student3 = new Student("학생3", 10);
-		Student student4 = new Student("학생4", 10);
 		List<Student> studentList = new ArrayList<Student>();
 		studentList.add(student1);
 		studentList.add(student2);
 		studentList.add(student3);
-		studentList.add(student4);
+		/*
 		studentList.forEach((student) -> {
 			String studentInfo = student.getInfo();
 			System.out.println(studentInfo);
 		});
+		*/
+		for(Student student: studentList) {
+			System.out.println("name:" + student.name +" age:"+student.age);
+		}
 	}
 
 }
