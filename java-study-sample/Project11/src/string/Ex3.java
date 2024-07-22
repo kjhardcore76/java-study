@@ -1,4 +1,4 @@
-package string;
+      package string;
 
 /*
  * StringBuilder 클래스 사용하기

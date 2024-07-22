@@ -45,7 +45,7 @@ class Student {
 		if(obj instanceof Student) { //학생객체인지 확인
 			Student student = (Student)obj; //Student로 형변환
 			if(this.id == student.id) { //학번이 같으면 true 반환
-				return true;
+				//return true;
 			}
 		}
 		
