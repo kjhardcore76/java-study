@@ -21,7 +21,5 @@ public class Ex4 {
 		list2.add("aaa");
 		String str = list2.get(0);
 		System.out.println(str);
-
 	}
-
 }

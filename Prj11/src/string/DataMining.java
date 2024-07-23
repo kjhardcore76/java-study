@@ -5,10 +5,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class StringStudy {
+public class DataMining {
 	
-	
-	 
 	 public static void main(String[] args) {
 		 String [] alphabetArr = "abcdefghijklmnopqrstuvwxyz".split("");
 		 Map<String, Integer> alphabetMap= new HashMap<>();
@@ -24,10 +22,8 @@ public class StringStudy {
 		 for(String ch : strArr) {
 			 if (alphabetMap.get(ch) != null) alphabetMap.put(ch, alphabetMap.get(ch) + 1); 
 		 }
-		 //System.out.println(alphabetMap);
 		 
-		 strList.forEach(c ->{ 
-			
+		 strList.forEach(c ->{ 	
 		 	if(c.trim().length() != 0) System.out.println(c+":"+alphabetMap.get(c));
 		 });
 		  
