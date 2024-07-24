@@ -15,7 +15,7 @@ public class Ex2 {
 		list.add(member1);  //회원 추가
 		list.add(member2);
 		list.add(member3);
-		list.add(member3); //같은 회원 중복 추가
+		list.add( ); //같은 회원 중복 추가
 		
 		System.out.println(list.get(0)); //회원 꺼내기
 		System.out.println(list.get(1));
