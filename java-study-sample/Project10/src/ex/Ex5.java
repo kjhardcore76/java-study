@@ -16,8 +16,8 @@ public class Ex5 {
 		Scanner scanner = new Scanner(System.in);
 		int num = scanner.nextInt(); // 문자를 입력받아서 num변수에 저장
 
-		Scheduler scheduler;
-		System.out.println(scheduler);
+		Scheduler scheduler = null;
+	
 		int  a = 1;
 		// 입력받은 숫자에 따라서 정책을 선택함
 		if (num == 1) { // 입력받은 값이 1이면 RoundRobin 클래스 생성

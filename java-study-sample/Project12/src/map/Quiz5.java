@@ -1,5 +1,6 @@
 package map;
 
+import java.util.Collection;
 import java.util.HashMap;
 import java.util.Iterator;
 
@@ -58,7 +59,7 @@ class MemberHashMap {
 
 		Collection<Member> values = map.values();
 
-		for(Member member : vlaues) {
+		for(Member member : values) {
 			System.out.println(member);
 		}
 		System.out.println();

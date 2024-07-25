@@ -4,7 +4,7 @@ import java.util.Collection;
 import java.util.HashMap;
 import java.util.Set;
 
-public class Quiz {
+public class QuizHashMap1 {
 	public static void main(String[] args) {
 		/*
 		HashMap<Character, String> fruitSet = new HashMap<>();
