@@ -1,6 +1,6 @@
-package ramda;
+package lamda;
 
-public class Ex2RamdaCalc {
+public class Ex2LamdaCalc {
   public static void main(String[] args) {
     Add add = (num1, num2) -> {return num1 + num2;};
     System.out.println(add.getResult(1,2));

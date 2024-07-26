@@ -1,12 +1,13 @@
-package ramda;
+package lamda;
 
 public class Ex1Functional {
   public static void main(String[] args) {
     StringConcatImp stringConcatImp = new StringConcatImp();
     stringConcatImp.makeString("aaa", "bbb");
-    StringConcat stringConcatRamda = (str1, str2)-> str1+" "+str2;
-    //StringConcat stringConcatRamda = (str1, str2)-> System.out.println(str1+str2);
-    //stringConcatRamda.makeString("aaa","bbb");
+
+    StringConcat stringConcatLamda = (str1, str2)-> str1+" "+str2;
+    String result = stringConcatLamda.makeString("aaa","bbb");
+    System.out.println(result);
   }
 
 }
