@@ -2,14 +2,17 @@ package main;
 
 public class Ex1 {
   public static void main(String[] args) {
-    int[] arr = new int[5];
+    /*
+     * Integer obj = new Integer(0);
+     * String str = (String) obj;
+     * System.out.println(str);
+     */
     try {
-      arr[5] = 5;
-    } catch (ClassCastException e) {
-      System.out.println("error: "+e);
-    }catch(Exception e){
-      System.out.println("error: "+e);
+      Object obj = new Integer(0);
+      String str = (String) obj;
+      System.out.println(str);
+    } catch (Exception e) {
+      System.out.println(e);
     }
-    System.out.println("정상 종료");
   }
 }
