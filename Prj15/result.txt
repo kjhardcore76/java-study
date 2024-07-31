@@ -1,0 +1,8 @@
+-a
+--aa
+---aaa
+----aaa.txt
+--b
+---b.txt
+---desktop.ini
+-root.txt
